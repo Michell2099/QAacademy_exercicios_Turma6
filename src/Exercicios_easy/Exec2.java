@@ -12,8 +12,8 @@ public class Exec2 {//Abertura de classe
 }//Fechamento da classe.
 
 
-//Inicio do algoritmo
+//Inicio do algoritmo.
 //Declarar variável do tipo texto varPalavra;
 //varPalavra  = Ler (“Curso”);
 //Exibir: “A palavra é: ” + varPalavra;
-//Fim do algoritmo
+//Fim do algoritmo.

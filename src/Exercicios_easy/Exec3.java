@@ -6,11 +6,8 @@ import javax.swing.*;
                 //em variáveis, e exibir os valores das variáveis, trocados.
 
 public class Exec3 {//Abertura de classe.
-    String nome;
-    String sobremone;
     public String nomeSobrenome(String nome, String sobremone ){
         return "O Nome é: " + nome + sobremone;
-
     }
 }
     //public static void main(String[] args) {//Abertura do metodo main.

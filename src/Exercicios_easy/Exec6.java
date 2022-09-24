@@ -13,11 +13,11 @@ public class Exec6 {//Abertura da classe.
         nota2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a segunda nota"));
         media = (nota1 + nota2) / 2;
         if (media > 5) {//Abertura if
-          //  System.out.println("Aprovado");
+            //  System.out.println("Aprovado");
             JOptionPane.showMessageDialog(null,nota1, "Aprovado", 3);
         }// Fechamenrto if
         if (media < 5) {//Abertura if
-           // System.out.println("Reprovado");
+            // System.out.println("Reprovado");
             JOptionPane.showMessageDialog(null,nota2, "Reprovado", 1);
         }// Fechamenrto if
         if (media == 5) {//Abertura if
@@ -25,7 +25,26 @@ public class Exec6 {//Abertura da classe.
             JOptionPane.showMessageDialog(null,media, "exame", 2);
         }// Fechamenrto if
     }//Fechamento do medoto main.
-}//Feschamento do classe
+}//Feschamen
+
+   /// public static void main(String[] args) {//Abertura do main.
+     //   int nota1, nota2, media;
+       // nota1 = Integer.parseInt(JOptionPane.showInputDialog("Digite a primeira nota"));
+       // nota2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a segunda nota"));
+      //  media = (nota1 + nota2) / 2;
+      //  if (media > 5) {//Abertura if
+    //  /    //  System.out.println("Aprovado");
+     //       JOptionPane.showMessageDialog(null,nota1, "Aprovado", 3);
+     //   }// Fechamenrto if
+     //   if (media < 5) {//Abertura if
+         //  // System.out.println("Reprovado");
+           // JOptionPane.showMessageDialog(null,nota2, "Reprovado", 1);
+//        if (media == 5) {//Abertura if
+            //System.out.println("Exame");
+           // JOptionPane.showMessageDialog(null,media, "exame", 2);
+        //}// Fechamenrto if
+   // }//Fechamento do medoto main.
+//}//Feschamento do classe
 
 
 //Inicio Algoritmo

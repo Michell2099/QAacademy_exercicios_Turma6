@@ -6,22 +6,38 @@ import javax.swing.*;
      //   e exibir a soma, a subtração, multiplicação e a média dos três números digitados.
 
 public class Exec5 {//Abertura da classe.
-    public static void main(String[] args) {//Abertura do metodo main.
-        int nun1,nun2,nun3;
-        nun1=Integer.parseInt(JOptionPane.showInputDialog("Digite o Primeiro"));
-        nun2=Integer.parseInt(JOptionPane.showInputDialog("Digite o Segundo"));
-        nun3=Integer.parseInt(JOptionPane.showInputDialog("Digite o Terceiro"));
-        int soma,subtração,multiplicação,media;
-        soma=nun1+nun2+nun3;
-        System.out.println("Minha soma é:" + soma);
-        subtração=nun1-nun2-nun3;
-        System.out.println("Minha subtração é:" + subtração);
-        multiplicação=nun1*nun2*nun3;
-        System.out.println("Minha multiplicação é" + multiplicação);
-        media=soma/3;
-        System.out.println("Minha media é:" + soma/3);
-    }//Fechamento metodo main.
-}//Fechamento da classe.}
+
+    public int Soma(int nun1, int nun2, int nun3){//Abertura do metodo main.
+        return nun1 + nun2 + nun3;
+    }
+    public int Subtração(int nun1, int nun2, int nun3){
+        return nun1 - nun2 - nun3;
+    }
+    public int Multiplicação(int nun1, int nun2, int nun3){
+        return nun1 * nun2 * nun3;
+    }
+    public int minhaMedia( int nun1, int nun2, int nun3){
+        int soma = nun1+nun2+nun3;
+        return soma/3;
+    }
+
+}    //Fechamento metodo main.
+    //public static void main(String[] args) {//Abertura do metodo main.
+       // int nun1,nun2,nun3;
+       // nun1=Integer.parseInt(JOptionPane.showInputDialog("Digite o Primeiro"));
+       // nun2=Integer.parseInt(JOptionPane.showInputDialog("Digite o Segundo"));
+       // nun3=Integer.parseInt(JOptionPane.showInputDialog("Digite o Terceiro"));
+       // int soma,subtração,multiplicação,media;
+       // soma=nun1+nun2+nun3;
+       // System.out.println("Minha soma é:" + soma);
+       // subtração=nun1-nun2-nun3;
+       // System.out.println("Minha subtração é:" + subtração);
+       // multiplicação=nun1*nun2*nun3;
+     //   System.out.println("Minha multiplicação é" + multiplicação);
+        //media=soma/3;
+     //   System.out.println("Minha media é:" + soma/3);
+  //  }//Fechamento metodo main.
+//}//Fechamento da classe.}
 
 //Inicio Algoritmo
 //Declarar variáveis numéricas: numero1, numero2 e numero3;

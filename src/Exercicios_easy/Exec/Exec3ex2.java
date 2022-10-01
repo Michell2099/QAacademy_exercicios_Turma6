@@ -5,9 +5,9 @@ import javax.swing.*;
            //3- Faça um algoritmo para ler dois valores, armazenar
         //em variáveis, e exibir os valores das variáveis, trocados.
 
-public class Exec3ex2 {//Abertura da classe.
+public class Exec3ex2 {
     public String inverterNomes(String nome, String sobremone ){
-        return "O Nome é: " + sobremone + nome;
+        return "O Nome é: " + sobremone +" " +nome;
     }
 }
     //public static void main(String[] args) {//Abertura do metodo main.

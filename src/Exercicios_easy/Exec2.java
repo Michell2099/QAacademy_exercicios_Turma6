@@ -5,7 +5,7 @@ package Exercicios_easy;
                  public class Exec2 {
                      String palavra;
                      public String palavra(String palavra) {
-                     return palavra;
+                     return " A palavra é:"  + palavra;
                      }
                  }
 

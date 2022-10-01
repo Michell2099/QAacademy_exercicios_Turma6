@@ -4,15 +4,16 @@ package Exercicios_easy;
           // Digitou 10. 10+2, 12+2, 14+2, Até completar 100 iterações.
 
 public class Exec11 {
-    public int lernumeroInteiro(int soma) {
-        int i=1;
+    public String somamais(int numero) {
+        int i = 1;
         while (i <= 100) {
-            soma = soma+1;
-            return soma;
+            numero = numero+2;
+            i++;
         }
-        return i;
+            return "A soma é "  + numero;
+        }
     }
-}
+
 
 
 

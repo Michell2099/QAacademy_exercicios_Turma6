@@ -4,16 +4,15 @@ package Exercicios_medium;
              // de 5% a.a. Ao final de 10 anos, exibir o valor investido, valor dos juros,
              // e o total. Considerando que a remuneração será no regime de juros compostos.
 
-public class Exec2 {//Abertura de classse.
+public class Exec2 {
 
-     public Object ExibirJuros(double valorInvestimento) {//Abertura do metodo main.
+     public Object ExibirJuros(double valorInvestimento) {
           double taxaJuros = 0.05, valorJuros = 0, valorTotal = 0;
           int i = 1;
           valorTotal = valorInvestimento;
-          while (i <= 10) {//Abertura do metodo ( ENQUANDO )
-               //valorTotal = ((valorJuros * valorInvestimento) * taxaJuros) + valorJuros;
-               i++;
-}//Fechamento do metodo ( ENQUANDO )
+          while (i <= 10) {
+              i++;
+}
                valorJuros = valorTotal + valorInvestimento;
                System.out.println("Voce investiu:" + valorInvestimento);
                System.out.println("Rendeu:" + valorJuros);

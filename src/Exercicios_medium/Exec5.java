@@ -4,29 +4,28 @@ package Exercicios_medium;
             //exibir, quais dos 5 números digitados, é o menor.
 
 public class Exec5 {//Abertura da classe.
-    public boolean ExibirNumeroMenor(int numeroDigitado, int antenrior) {//Abertura do metodo main.
-            int i =1;
-            while (i<=5){//Abertura do metodo ( ENQUANDO ).
-                if (numeroDigitado < antenrior || i==1){
-                    antenrior=numeroDigitado;
-                }
-                i++;
-            }//fechamento do metodo ( ENQUANDO ).]
-            System.out.println("O menor digitado é:" + antenrior);
-        return false;
-    }//Fechamento do metodo main.
-    }//Fechamento da classe.
 
+    public void ExibirNumeroMenor(int nun1, int nun2, int nun3, int nun4, int nun5) {
 
+        int antenrior = nun1;
+        int i = 1;
 
+            if (antenrior > nun2) {
+            antenrior = nun2;
+            }
+            if (antenrior > nun3) {
+            antenrior = nun3;
+            }
+            if (antenrior > nun4) {
+                antenrior = nun4;
+            }
+            if (antenrior > nun5) {
+                antenrior = nun5;
+            }
+        System.out.println("O menor digitado é: " + antenrior);
 
-
-
-
-
-
-
-
+        }
+    }
 
 
 

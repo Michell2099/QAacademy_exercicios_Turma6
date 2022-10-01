@@ -7,13 +7,13 @@ import javax.swing.*;
 
 public class Exec5 {
 
-    public int Soma(int nun1, int nun2, int nun3){
+    public int soma(int nun1, int nun2, int nun3){
         return nun1 + nun2 + nun3;
     }
-    public int Subtração(int nun1, int nun2, int nun3){
+    public int subtracao(int nun1, int nun2, int nun3){
         return nun1 - nun2 - nun3;
     }
-    public int Multiplicação(int nun1, int nun2, int nun3){
+    public int multiplicao(int nun1, int nun2, int nun3){
         return nun1 * nun2 * nun3;
     }
     public int minhaMedia( int nun1, int nun2, int nun3){

@@ -52,8 +52,8 @@ public class Execução {
         //Exec7 exec7 = new Exec7();
         //System.out.println(exec7.CalcularInss(7000));
 
-        Exec8 exec8 =new Exec8();
-        System.out.println(exec8.exibirInss(5000));
+        //Exec8 exec8 =new Exec8();
+        //System.out.println(exec8.exibirInss(3000));
 
         //Exec9 exec9 = new Exec9();
         //exec9.mult(5);
@@ -62,13 +62,13 @@ public class Execução {
         //System.out.println(exec10.jurosSimples(5000));
 
         //Exec10ex2 exec10ex2 = new Exec10ex2();
-        //System.out.println(exec10ex2.);
+        //System.out.println(exec10ex2.calInvestimento(1000));
 
         //Exec10ex3 exec10ex3 = new Exec10ex3();
-        //System.out.println(exec10ex3.());
+        //System.out.println(exec10ex3.CalcularInvestimento(5000));
 
-       //Exec11 exec11 = new Exec11();
-        //System.out.println(exec11.lernumeroInteiro(10));
+       Exec11 exec11 = new Exec11();
+        System.out.println(exec11.somamais(50));
 
         //Exec1 exec1 = new Exec1();
         //exec1.ExibirparImpar();
@@ -86,7 +86,7 @@ public class Execução {
        //exec4.ExibirMultiplicação(10);
 
         //Exec5 exec5 = new Exec5();
-        //System.out.println(exec5.ExibirNumeroMenor(2,1));
+        //exec5.ExibirNumeroMenor(1,8,3,0,5);
 
         //Exec6 exec6 = new Exec6();
         //System.out.println(exec6.lernumeroInteiro(10));

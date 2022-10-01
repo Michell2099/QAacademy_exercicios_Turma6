@@ -4,19 +4,38 @@ package Exercicios_medium;
           //EX: 0 +1, 1+2, 3+4.. 1500 | break ou parar
 
 
-import javax.swing.*;
-
-public class Exec3ex2 {//Abertura da classe.
-    public static void main(String[] args) {//Abertura do metodo main.
-        int i=0, soma=1;
-        while (i<=1000 && soma <=1500){//Abertura do metodo ( ENQUANDO ).
+public class Exec3ex2 {
+    public void ExibirSoma(int i) {
+        int soma=1;
+        while (i<=1000 && soma <=1500){
             soma = i+soma;
             System.out.println("Exibir:" + soma);
+            i++;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   // public static void main(String[] args) {//Abertura do metodo main.
+       //int i=0, soma=1;
+       // while (i<=1000 && soma <=1500){//Abertura do metodo ( ENQUANDO ).
+            //soma = i+soma;
+           // System.out.println("Exibir:" + soma);
            // JOptionPane.showMessageDialog(null, "Exibir:" + soma);
-            i++;// siginifica i=i+1
-        }////Fechamento do metodo ( ENQUANDO ).
-    }//Fechamento do metodo main.
-}//Feechamento da classe.
+          //  i++;// siginifica i=i+1
+      //  }////Fechamento do metodo ( ENQUANDO ).
+  //  }//Fechamento do metodo main.
+//}//Feechamento da classe.
 
 //Sem o break.
 //Inicio Algoritmo

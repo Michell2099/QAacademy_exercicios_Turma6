@@ -7,14 +7,11 @@ import java.sql.SQLOutput;
                 // 4-)  Faça um algoritmo para ler um número inteiro,
                // armazenar em uma variável, calcular o dobro, e exibir.
 
-public class Exec4 {//Abertura da classe.
-
-    public int FazerSoma(int nun1) {//Abertura do metodo main.
+public class Exec4 {
+    public int FazerSoma(int nun1) {
         return nun1 * 2;
-        //  System.out.println("O dobro é:"+result);
-       // JOptionPane.showMessageDialog(null, result);// para mostrar o resultado direto
-    }//Fechamento metodo main.
-}//Fechamento da classe.
+    }
+}
 
     //public static void main(String[] args) {//Abertura do metodo main.
    //     int nun1,result;

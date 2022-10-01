@@ -5,9 +5,9 @@ import javax.swing.*;
           //5-) Faça um algoritmo para ler três números inteiros, armazenar em variáveis,
      //   e exibir a soma, a subtração, multiplicação e a média dos três números digitados.
 
-public class Exec5 {//Abertura da classe.
+public class Exec5 {
 
-    public int Soma(int nun1, int nun2, int nun3){//Abertura do metodo main.
+    public int Soma(int nun1, int nun2, int nun3){
         return nun1 + nun2 + nun3;
     }
     public int Subtração(int nun1, int nun2, int nun3){

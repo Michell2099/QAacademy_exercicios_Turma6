@@ -8,21 +8,32 @@ import javax.swing.*;
 
                             //Juros Simples sem utilizar o enquanto:
 
-public class Exec10 {//Abertura dpa classe.
-    public static void main(String[] args) {//Abertura do metodo main.
-        int ValorInvestimeto;double taxaJuros = 0.05,ValorJuros,Valortotal;
-        ValorInvestimeto = Integer.parseInt(JOptionPane.showInputDialog("Digitar valor"));
+public class Exec10 {
+    public double jurosSimples(double valorInvestimento) {
+        int i =10;
+        double taxaJuros = 0.05;
         taxaJuros=0.05*10;
-        ValorJuros=ValorInvestimeto*taxaJuros;
-        Valortotal=ValorJuros+ValorInvestimeto;
+        i++;
+        return valorInvestimento * taxaJuros;
+    }
+}
+
+
+
+   // public static void main(String[] args) {//Abertura do metodo main.
+        //int ValorInvestimeto;double taxaJuros = 0.05,ValorJuros,Valortotal;
+       // ValorInvestimeto = Integer.parseInt(JOptionPane.showInputDialog("Digitar valor"));
+       // taxaJuros=0.05*10;
+        //ValorJuros=ValorInvestimeto*taxaJuros;
+       // Valortotal=ValorJuros+ValorInvestimeto;
         //System.out.println(" Voce investiu:" + ValorInvestimeto);
-        JOptionPane.showMessageDialog(null, " Voce investiu: " + ValorInvestimeto);
+        //JOptionPane.showMessageDialog(null, " Voce investiu: " + ValorInvestimeto);
         //System.out.println("Rendeu:" + ValorJuros + " de juros ");
-        JOptionPane.showMessageDialog(null, " Rendeu:" + ValorJuros + " de juros");
+        //JOptionPane.showMessageDialog(null, " Rendeu:" + ValorJuros + " de juros");
         //System.out.println("Valor total são:" + Valortotal);
-        JOptionPane.showMessageDialog(null, " Valor total são:" + Valortotal);
-    }//Fechamento do metodo main.
-}//Fechamento da classe
+        //JOptionPane.showMessageDialog(null, " Valor total são:" + Valortotal);
+   // }//Fechamento do metodo main.
+//}//Fechamento da classe
 
 //Declarar Variavel do tipo numerica: valorInvestimento, taxaJuros = 0.05, valorJuros, valorTotal;
 //valorInvestimento = Ler (1000,00);

@@ -5,7 +5,7 @@ import javax.swing.*;
                 // 3-) Faça um algoritmo para ler dois valores, armazenar
                 //em variáveis, e exibir os valores das variáveis, trocados.
 
-public class Exec3 {//Abertura de classe.
+public class Exec3 {
     public String nomeSobrenome(String nome, String sobremone ){
         return "O Nome é: " + nome + sobremone;
     }

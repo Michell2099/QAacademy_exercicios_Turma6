@@ -4,8 +4,7 @@ package Exercicios_easy;
                  //2-) Faça um algoritmo para ler e exibir uma palavra
                  public class Exec2 {
                      String palavra;
-
-                     public String palavra(String palavra) {//Abertura do metodo main.
+                     public String palavra(String palavra) {
                      return palavra;
                      }
                  }
